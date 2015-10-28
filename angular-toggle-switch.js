@@ -29,9 +29,9 @@
       },
       template: '<div role="radio" class="toggle-switch" ng-class="{ \'disabled\': disabled }">' +
           '<div class="toggle-switch-animate" ng-class="{\'switch-off\': !model, \'switch-on\': model}">' +
-          '<span class="switch-left" ng-bind="onLabel"></span>' +
-          '<span class="knob" ng-bind="knobLabel"></span>' +
-          '<span class="switch-right" ng-bind="offLabel"></span>' +
+          '<span class="label label-success" translate="{{onLabel}}"></span>' +
+          '<span class="knob" translate="{{knobLabel}}"></span>' +
+          '<span class="label label-danger" translate="{{offLabel}}"></span>' +
           '</div>' +
           '</div>',
       compile: function(element, attrs) {
