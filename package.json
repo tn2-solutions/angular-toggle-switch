@@ -30,7 +30,7 @@
   "files": [
     "angular-toggle-switch.js",
     "angular-toggle-switch.css",
-    "angular-toggle-switch-bootstrap.css",
+    "angular-toggle-switch-bootstrap.css"
   ],
   "homepage": "http://cgarvis.github.io/angular-toggle-switch",
   "devDependencies": {
